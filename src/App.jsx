@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import RadarMap from './RadarMap.jsx'
 
 const LAT = -37.779
 const LON = 144.919
@@ -194,6 +195,8 @@ export default function App() {
             </div>
           </div>
         )}
+
+        <RadarMap />
 
         <footer className="footer">
           <p>
